@@ -1,0 +1,94 @@
+@import '@vue-flow/core/dist/style.css';
+@import '@vue-flow/core/dist/theme-default.css';
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* All styles */
+body {
+  color: #111111;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Roboto", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  transition: .3s background ease;
+}
+
+body.dark {
+  background: #000000;
+}
+
+body.light {
+  background-color: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.screen {
+  height: 100vh;
+}
+
+.overview-example__add {
+  display: none;
+}
+
+.vue-flow__node a {
+  font-weight: 700;
+  color: #111;
+}
+
+.vue-flow__node.dark-node {
+  background: #0041d0;
+  color: #f8f8f8;
+}
+
+.vue-flow__node.dark {
+  background: #557;
+  color: #f8f8f8;
+}
+
+.vue-flow__node-selectorNode {
+  font-size: 14px;
+  background: #f0f2f3;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.vue-flow__node-selectorNode .vue-flow__handle {
+  border-color: #f0f2f3;
+}
+
+.theme-btn {
+  cursor: pointer;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  transition: .3s all ease;
+  border: 1px solid #000;
+}
+
+@media screen and (min-width: 768px) {
+  .overview-example__add {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .ui-map {
+    display: none;
+  }
+}

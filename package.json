@@ -1,0 +1,29 @@
+{
+  "name": "users-managment",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vue-flow/additional-components": "latest",
+    "@vue-flow/core": "latest",
+    "lucide-vue-next": "^0.475.0",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.9.0",
+    "@types/node": "latest",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.5",
+    "unplugin-auto-import": "^0.6.8",
+    "vite": "2.8.6"
+  },
+  "keywords": [],
+  "description": ""
+}
